@@ -12,7 +12,7 @@ A robust OpenSCAD toolkit for generating large-scale ChArUco calibration boards 
 * **Auto-Splitting:** Automatically slices large targets (e.g., 15x15 grids) into printable sections compatible with standard build volumes like the Prusa XL, Bambu X1, and Prusa MK4.
 * **Modular Assembly:** Choose between two robust connection styles:
     * **Smart Dovetails:** Precision puzzle-fit with anchored geometry for a flat, glue-assembled board.
-    * **Joiner Plates:** Reinforced screw-fastened connections using printed plates and standard M3/wood screws.
+    * **Joiner Plates:** Reinforced screw-fastened connections using printed plates and standard M3/wood screws. **(⚠️ Note: This connection style is currently in development and untested.)**
 * **Multi-Material Ready:** Generates separate "White Base" and "Black Pattern" STL files with anchored geometry, ensuring perfect boolean unions in slicers.
 * **Robust Geometry:** Includes reinforcement bosses for screw holes and "top-open" dovetail slots to ensure easy assembly and structural integrity.
 * **Python Integration:** Includes a helper script to generate standard ArUco dictionary patterns (`markers.scad`).
