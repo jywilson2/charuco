@@ -7,6 +7,17 @@ A robust OpenSCAD toolkit for generating large-scale ChArUco calibration boards 
 ![OpenSCAD Generator Preview](docs/open_scad.png)
 *Figure 1: The parametric model rendered in OpenSCAD, showing the modular split and alignment features.*
 
+## Pre-Generated Files
+
+For convenience, we have provided ready-to-print files for a standard **15x15 Grid** configuration:
+
+* **STL Models (`stl/`):** Contains exported "White Base" and "Black Pattern" files pre-configured for:
+    * Prusa XL
+    * Bambu Labs X1E
+* **Slicer Projects (`slicer/`):** Contains pre-configured project files (with multi-material settings applied) for:
+    * **Prusa Slicer** (for Prusa XL)
+    * **Bambu Studio** (for Bambu Labs X1E)
+
 ## Key Features
 
 * **Auto-Splitting:** Automatically slices large targets (e.g., 15x15 grids) into printable sections compatible with standard build volumes like the Prusa XL, Bambu X1, and Prusa MK4.
