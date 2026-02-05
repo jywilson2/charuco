@@ -24,6 +24,7 @@ A robust OpenSCAD toolkit for generating large-scale ChArUco calibration boards 
     python generate_library.py
     ```
 2.  **Configure:** Open the `.scad` file in OpenSCAD and select your **Printer Model** and **Connection Type** in the Customizer.
+    * *Note: Extensive usage information, advanced configuration options, and logic explanations are provided as inline comments within the SCAD source file.*
 3.  **Export:** Select the **Part Index** you wish to print, then export the `White Base` and `Black Pattern` files separately.
 4.  **Print:** Import both files into your slicer as a "Multi-Part Object" to preserve alignment and assign filament colors.
 
