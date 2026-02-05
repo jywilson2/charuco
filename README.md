@@ -1,5 +1,7 @@
 # Parametric 3D-Printable ChArUco Calibration Target
 
+![Robot Dolphins from Outer Space Logo](docs/logo.png)
+
 **Developed by Robot Dolphins from Outer Space: Team 5199 & Gemini Pro**
 
 A robust OpenSCAD toolkit for generating large-scale ChArUco calibration boards that can be split and 3D printed on standard-sized beds. This project features precision multi-material slicing support and modular assembly options, making it easy to create professional-grade computer vision calibration targets without a large-format printer.
